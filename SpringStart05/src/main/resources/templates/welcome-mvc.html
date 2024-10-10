@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Welcome MVC</title>
+<link rel="stylesheet" th:href="@{/css/style.css}"
+</head>
+<body>
+	
+	<h2>Title</h2>
+	
+	<p th:text="${greeting}">greeting</p>
+	
+	[[${welcome}]]<br>
+
+</body>
+</html>
