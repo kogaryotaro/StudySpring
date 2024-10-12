@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Postparam</title>
+<link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+	
+	<h2>パラメータ送信</h2>
+	
+	<form th:action="@{/post-param}" method="post">
+		挨拶しろ！：<input type="text" name="greeting"><br><br>
+		
+		<input type="submit" value="送信する" class="btn">
+	</form>
+
+</body>
+</html>
