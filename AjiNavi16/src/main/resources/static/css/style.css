@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+body{
+	font-family: BIZ UDPゴシック;
+	background-color: #98fb98;
+	text-align: center;
+}
+
+h1{
+	font-size: 32px;
+	color: green;
+}
+
+h2{
+	font-size: 28px;
+	background-color: green;
+	color: white;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+/* 通常のボタン　*/
+.btn{
+	border: 2px solid green;
+	padding: 4px 20px;
+	font-size: 20px;
+	color: green;
+	cursor: pointer;
+}
+
+.btn:hover{
+	color: #fff;
+	background: green;
+}
+
+input.comment {
+	width: 400px;
+}
+
+.error-msg{
+	color: red;
+}
+
+table {
+	border: 1px solid #5e696c;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%; 					/* テーブル横幅 */
+	border-collapse:  collapse; 	/* 境界線を共有 */
+}
+
+th {
+	border: 1px solid #5e696c;
+    text-align:center;
+    background-color: #3cb371;
+    height: 32px;
+}
+
+td {
+	border: 1px solid #5e696c;
+	text-align: center;
+	height: 24px;
+}
+
+.restaurant-list {
+    background-color: #eee8aa;
+}
