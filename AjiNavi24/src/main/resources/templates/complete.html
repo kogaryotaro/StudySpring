@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>complete</title>
+<link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+	
+	<h2>完了したよ</h2>
+	
+	<br>
+	<p>処理が完了しました</p>
+	<p th:text="${msg}"></p>
+	
+	<br>
+	<br>
+	<a th:href="@{/top}">一覧画面に戻ります</a>
+
+</body>
+</html>
